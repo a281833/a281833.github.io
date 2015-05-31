@@ -8,7 +8,7 @@ body {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  color: #545454;
+  color: black;
 }
 
 #wrapper {
@@ -30,15 +30,18 @@ header {
 
 nav {
   float: right;
-  width: 1000px;
-  margin-top: -110px;
+  margin-top: -125px;
   margin-left: -10px;
+  width: 880px;
+  border-top: 8px solid rgb(30,215,96);
+  border-bottom: 8px solid rgb(30,215,96);
+  margin-right: 20px;
 }
 
 nav ul {
   float: right;
-  margin-right: 40px;
-  padding: 0;
+  margin: 30px 45px 30px 0;
+  padding: 0px;
   list-style: none;
   line-height: normal;
 }
@@ -50,10 +53,9 @@ nav li {
 nav a {
   margin-left: 20px;
   padding: 10px;
-  letter-spacing: 1px;
   text-decoration: none;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   text-transform: uppercase;
   color: white;
   border-radius: 15px 15px;
@@ -61,7 +63,7 @@ nav a {
 }
 
 nav a:hover {
-  border: 5px solid rgb(30,215,96);
+  border: 8px solid white;
 }
 
 #page {
@@ -69,12 +71,11 @@ nav a:hover {
   width: 1100px;
   margin: 0 50px;
   padding: 50px 0;
-  border-bottom: 2px solid gray;
 }
 
 #main {
   float: left;
-  width: 1050px;
+  width: 750px;
 }
 
 #main p {
@@ -82,29 +83,103 @@ nav a:hover {
   text-align: justify;
 }
 
-aside {
-  float: right;
-  width: 300px;
-}
-
-footer {
-  overflow: hidden;
-  margin: 0 50px;
-  padding: 30px 0;
-  border-top: 5px solid #000;
-}
-
-footer p {
-  text-align: center;
-}
-
 #logo img {
   margin-top: 0px;
   height: 150px;
+  margin-left: -15px;
 }
 
 #logo {
   width: 100px;
+}
+
+#img1 {
+  margin-left: 330px;
+}
+
+#div1 {
+  float: left;
+  width: 300px;
+  height: 80px;
+  text-align: justify;
+  font-family: 'Dosis';
+  font-size: 20px;
+  margin-top: -620px;
+}
+
+#div2 {
+  float: right;
+  width: 450px;
+  height: 80px;
+  text-align: justify;
+  font-family: 'Dosis';
+  font-size: 17px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+#img2 {
+  float: right;
+  margin-left: 300px;
+  margin-top: -290px;
+}
+
+#img4 {
+  height: 700px;
+  margin-top: 180px;
+}
+
+#div3 {
+  width: 1100px;
+  height: 300px;
+  text-align: justify;
+  font-family: 'Dosis';
+  font-size: 20px;
+}
+
+#img5 {
+  height: 400px;
+  margin-left: 700px;
+  margin-top: -300px;
+}
+
+#div4 {
+  width: 650px;
+  height: 300px;
+  text-align: justify;
+  font-family: 'Dosis';
+  font-size: 20px;
+}
+
+#div5 {
+  float: right;
+  width: 450px;
+  height: 400px;
+  text-align: justify;
+  font-family: 'Dosis';
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+#img7 {
+  height: 400px;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+footer {
+  width: 1200px;
+  margin: 0;
+  height: 20px;
+  padding: 20px 0 40px;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .buscados {
@@ -129,11 +204,11 @@ article{
 }
 
 .buscados2{
-  background-color:rgb(30,215,96);
+  background-color: rgb(30,215,96);
   border-radius: 5px 5px;
   color: white;
-  width:200px;
-  margin:5px auto;
+  width: 200px;
+  margin: 5px auto;
 }
 
 .imgcabecera{
@@ -142,9 +217,27 @@ article{
 }
 
 .buscadosart{
-  background-color:rgb(30,215,96);
+  background-color: rgb(30,215,96);
   border-radius: 5px 5px;
   color: white;
   width:800px;
   margin:5px auto;
+}
+
+#infoartista {
+  width: 400px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 35px;
+  border-radius: 15px 15px;
+  border: 8px solid rgb(30,215,96);
+  margin-bottom: 50px;
+  margin-top: -40px;
+  margin-left: 100px;
+}
+
+article.ajuste {
+  padding-left: 250px;
 }
