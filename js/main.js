@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
   $("#infoartista").click(function() {
-    $(".artistamostrado").remove();
+    $("#artistamostrado").remove();
     $.getJSON("https://api.spotify.com/v1/artists/3whuHq0yGx60atvA2RCVRW",
       function(json) {
-        var div = $("#main").append("<div class="artistamostrado"><h1>Olly Murs</h1><a href='"+json.uri+"' ><img src='"+json.images[1].url+"'/></a></div>");
+        var div = $("#main").append("<div id='artistamostrado'><h1>Olly Murs</h1><a href='"+json.uri+"' ><img src='"+json.images[1].url+"'/></a></div>");
       });
   });
 
