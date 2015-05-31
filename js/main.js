@@ -3,10 +3,7 @@ $(document).ready(function() {
   $("#infoartista").click(function() {
     $.getJSON("https://api.spotify.com/v1/artists/3whuHq0yGx60atvA2RCVRW",
       function(json) {
-        var div = $("#main").append("<div><a href='"+json.uri+"' ><img src='"+json.images[1].url+"'/></a></div>");
-        $.each(json.images, function(index, data) {
-          var div2 = $("#main").append("<div><img src='"+data.url+"'/></div>");
-        });
+        var div = $("#main").append("<div><h1>Olly Murs</h1><a href='"+json.uri+"' ><img src='"+json.images[1].url+"'/></a></div>");
       });
   });
 
