@@ -7,7 +7,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
   color: black;
 }
 
@@ -33,6 +32,7 @@ nav {
   margin-top: -125px;
   margin-left: -10px;
   width: 800px;
+  border-radius: 50px 10px;
   border-top: 8px solid white;
   border-bottom: 8px solid white;
   margin-right: 60px;
@@ -63,7 +63,8 @@ nav a {
 }
 
 nav a:hover {
-  border: 8px solid white;
+  border: 5px solid white;
+  background-color: black;
 }
 
 #page {
@@ -192,7 +193,8 @@ footer p {
   border-radius: 15px 15px;
   color: white;
   width: 200px;
-  margin: 5px auto;
+  margin-bottom: 5px;
+  margin-left: 450px;
 }
 
 .buscados img{
@@ -272,9 +274,10 @@ article.ajuste {
 }
 
 #imgcanc5 {
+  float: right;
   height: 400px;
-  margin-left: 50px;
-  margin-top: -10px;
+  margin-right: -300px;
+  margin-top: 30px;
 }
 
 #cancion {
@@ -289,7 +292,7 @@ article.ajuste {
 
 #buscarcancion {
   float: left;
-  width: 400px;
+  width: 300px;
   height: 80px;
   background-color: black;
   color: white;
@@ -301,7 +304,87 @@ article.ajuste {
   margin-left: 420px;
 }
 
-#nota {
+#nota1 {
   margin-top: 40px;
   margin-bottom: 40px;
+  font-family: 'Dosis';
+  font-size: 80px;
+}
+
+#imgcanc6 {
+  height: 250px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+#imgplay1 {
+  height: 250px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+#imgplay2 {
+  height: 300px;
+}
+
+#imgplay3 {
+  height: 300px;
+  float: right;
+  margin-right: -400px;
+  margin-top: 0px;
+}
+
+#decripcionPlaylists {
+  width: 900px;
+  font-family: 'Dosis';
+  text-align: justify;
+  margin-left: 100px;
+  font-size: 80px;
+}
+
+#imgplay4 {
+  height: 320px;
+}
+
+#imgplay5 {
+  height: 320px;
+  float: right;
+  margin-right: -370px;
+  margin-top: 0px;
+}
+
+#playlist {
+  width: 400px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 25px;
+}
+
+#buscarplaylist {
+  float: left;
+  width: 300px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 35px;
+  border-radius: 15px 15px;
+  border: 8px solid rgb(30,215,96);
+  margin-top: -58px;
+  margin-left: 420px;
+}
+
+#nota2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'Dosis';
+  font-size: 80px;
+  margin-left: 30px;
+}
+
+#divplay {
+  margin-bottom: 80px;
 }

@@ -11,7 +11,7 @@ $(document).ready(function() {
   $("#buscaralbum").click(function() {
     $(".buscados").remove();
     if ($("#album").val().trim()==""){
-      window.alert("No ha introducido nada en el campo de texto");
+      window.alert("No Ha Introducido Nada en el Campo de Texto");
     }
     else{
       $.getJSON("https://api.spotify.com/v1/search?q="+$("#album").val()+"&offset=0&limit=20&type=album",
@@ -29,7 +29,7 @@ $(document).ready(function() {
   $("#buscarplaylist").click(function() {
     $(".buscadosart").remove();
     if ($("#playlist").val().trim()==""){
-      window.alert("No ha introducido nada en el campo de texto");
+      window.alert("No Ha Introducido Nada en el Campo de Texto");
     }else{
     $.getJSON("https://api.spotify.com/v1/search?query="+$("#playlist").val()+"&offset=0&limit=20&type=playlist",
       function(json) {
@@ -46,7 +46,7 @@ $(document).ready(function() {
   $("#buscarartista").click(function() {
     $(".buscadosart").remove();
     if ($("#campo").val().trim()==""){
-      window.alert("No ha introducido nada en el campo de texto");
+      window.alert("No Ha Introducido Nada en el Campo de Texto");
     }else{
       $.getJSON("https://api.spotify.com/v1/search?query="+$("#campo").val()+"&offset=0&limit=20&type=artist",
         function(json) {
@@ -64,7 +64,7 @@ $(document).ready(function() {
   $("#buscarcancion").click(function() {
     $(".buscados2").remove();
     if ($("#cancion").val().trim()==""){
-      window.alert("No ha introducido nada en el campo de texto");
+      window.alert("No Ha Introducido Nada en el Campo de Texto");
     }else{
       $.getJSON("https://api.spotify.com/v1/search?query="+$("#cancion").val()+"&offset=0&limit=20&type=track",
         function(json) {
