@@ -5,34 +5,45 @@
   <title>MusicSpot</title>
   <link rel="stylesheet" href="css/dosis.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="shortcut icon" type="image/ico" href="IMG/favicon.ico" />
+  <link rel="stylesheet" href="css/animate.css">
   <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <header>
     <div id="logo">
       <a href="index.html">
-        <img src="IMG/LogoPrincipal.png"/>
+        <img src="IMG/LogoPrincipal2.png"/>
       </a>
     </div><!-- logo -->
     <nav>
       <ul>
-        <li><a target="_blank" href="http://spotify.com">Spotify</a></li>
         <li><a href="canciones.html">Canciones</a></li>
         <li><a href="playlist.html">Playlist</a></li>
         <li><a href="artistas.html">Artistas</a></li>
         <li><a href="albumes.html">Álbumes</a></li>
+        <li><a href="https://www.spotify.com/mx/" target="_blank">Spotify</a></li>
       </ul>
     </nav>
   </header>
   <div id="wrapper">
     <section id="page">
       <article id="main">
-        <img class="imgcabecera" src="http://d.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2013/07/3013971-poster-1920-spotify-and-new-york-city-schools-get-together-to-hack-on-music-education.jpg"/>
-        <p>Busque una canción: </p>
+        <img id="imgcanc1" src="IMG/canciones.jpg"/>
+        <img id="imgcanc2" src="IMG/sol.jpg"/>
+        <p id="decripcionCanciones">
+          Spotify ofrece una de las colecciones de música más completas de la red y la pone al alcance de todos los que tengan una cuenta gratuita o de pago.
+          Spotify es una plataforma para gestionar tu música digital. Ésta no sólo permite buscar y escuchar temas en una base de datos legal, y después compartirlos con otros usuarios, sino que también te brinda la posibilidad de crear listas de reproducción, utilizar apps específicas para Spotify, administrar tu colección de música local e incluso tener acceso a los canales de información más privilegiados y completos del mundo. Por si fuera poco, también puedes descargar tu música preferida para escucharla sin estar conectado.
+          Y no solo esto, también ofrece mucho, mucho más.<br/><br/>
+
+          A continuacion te ofrecemos la opcion de buscar alguna cancion que desees, ya sea desde el titulo de la cancion
+          o tambien desde el nombre del artista, y despues se desplegara una lista con todos lor resultados de tu busqueda.
+        </p>
+        <img id="imgcanc3" src="IMG/songs2.jpg"/>
+        <img id="imgcanc4" src="IMG/notas.jpg"/>
+        <img class="wow flipInY" id="imgcanc5" src="IMG/tituloP1.png"/>
         <input type="text" id="cancion"/>
-        <button id="buscarcancion">Buscar canción</button>
-        <p>Nota: Haga click en el título de la canción y escuche una <i>preview<i></p>
+        <button class="wow rubberBand" id="buscarcancion">Buscar canción</button>
+        <p id="nota">Nota: Haga click en el Título de la Canción y Escuche una <i>snippet<i></p>
       </article><!-- main -->
 
     </section><!-- page -->
@@ -46,5 +57,9 @@
   </div><!-- wrapper -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+   new WOW().init();
+  </script>
 </body>
 </html>

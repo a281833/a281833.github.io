@@ -1,4 +1,4 @@
-html, body { //copia de aquí
+html, body {
   height: 100%;
 }
 
@@ -32,10 +32,10 @@ nav {
   float: right;
   margin-top: -125px;
   margin-left: -10px;
-  width: 880px;
-  border-top: 8px solid rgb(30,215,96);
-  border-bottom: 8px solid rgb(30,215,96);
-  margin-right: 20px;
+  width: 800px;
+  border-top: 8px solid white;
+  border-bottom: 8px solid white;
+  margin-right: 60px;
 }
 
 nav ul {
@@ -103,7 +103,7 @@ nav a:hover {
   height: 80px;
   text-align: justify;
   font-family: 'Dosis';
-  font-size: 19px;
+  font-size: 20px;
   margin-top: -620px;
 }
 
@@ -113,7 +113,7 @@ nav a:hover {
   height: 80px;
   text-align: justify;
   font-family: 'Dosis';
-  font-size: 19px;
+  font-size: 17px;
   margin-top: 5px;
   margin-right: 20px;
 }
@@ -172,7 +172,7 @@ iframe{
   margin-top: -10px;
 }
 
-footer { //copia hasta aquí
+footer {
   width: 1200px;
   margin: 0;
   height: 20px;
@@ -191,8 +191,8 @@ footer p {
   background-color:rgb(30,215,96);
   border-radius: 15px 15px;
   color: white;
-  width:200px;
-  margin:5px auto;
+  width: 200px;
+  margin: 5px auto;
 }
 
 .buscados img{
@@ -208,20 +208,15 @@ article{
   margin:auto;
 }
 
-.buscados2{
+.buscados2 {
   background-color: rgb(30,215,96);
   border-radius: 5px 5px;
   color: white;
-  width: 200px;
+  width: 800px;
   margin: 5px auto;
 }
 
-.imgcabecera{
-  width:1100px;
-  height:300px;
-}
-
-.buscadosart{
+.buscadosart {
   background-color: rgb(30,215,96);
   border-radius: 5px 5px;
   color: white;
@@ -245,4 +240,68 @@ article{
 
 article.ajuste {
   padding-left: 250px;
+}
+
+#imgcanc1 {
+  height: 420px;
+}
+
+#imgcanc2 {
+  height: 420px;
+  float: right;
+  margin-top: 0px;
+  margin-right: -350px;
+}
+
+#decripcionCanciones {
+  width: 900px;
+  font-family: 'Dosis';
+  font-size: 35px;
+  margin-left: 100px;
+}
+
+#imgcanc3 {
+  height: 420px;
+}
+
+#imgcanc4 {
+  height: 420px;
+  float: right;
+  margin-top: 0px;
+  margin-right: -400px;
+}
+
+#imgcanc5 {
+  height: 400px;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+#cancion {
+  width: 400px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 25px;
+}
+
+#buscarcancion {
+  float: left;
+  width: 400px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 35px;
+  border-radius: 15px 15px;
+  border: 8px solid rgb(30,215,96);
+  margin-top: -58px;
+  margin-left: 420px;
+}
+
+#nota {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
