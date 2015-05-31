@@ -1,4 +1,4 @@
-html, body { //copia de aquí---------------
+html, body { //copia de aquí
   height: 100%;
 }
 
@@ -170,9 +170,9 @@ iframe{
   height: 400px;
   margin-left: 50px;
   margin-top: -10px;
-} //copia hasta aquí--------------------------
+}
 
-footer {
+footer { //copia hasta aquí
   width: 1200px;
   margin: 0;
   height: 20px;
