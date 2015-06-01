@@ -5,6 +5,7 @@
   <title>MusicSpot</title>
   <link rel="stylesheet" href="css/dosis.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animate.css" />
   <link rel="shortcut icon" type="image/ico" href="IMG/IconoSpoty.ico" />
   <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
 </head>
@@ -12,40 +13,63 @@
   <header>
     <div id="logo">
       <a href="index.html">
-        <img src="IMG/LogoPrincipal.png"/>
+        <img class="wow flip" id="logo1"src="IMG/LogoPrincipal2.png"/>
       </a>
     </div><!-- logo -->
-    <nav>
+    <nav class="wow shake">
       <ul>
-        <li><a target="_blank" href="http://spotify.com">Spotify</a></li>
         <li><a href="canciones.html">Canciones</a></li>
         <li><a href="playlist.html">Playlist</a></li>
         <li><a href="artistas.html">Artistas</a></li>
         <li><a href="albumes.html">Álbumes</a></li>
+        <li><a href="https://www.spotify.com/mx/" target="_blank">Spotify</a></li>
       </ul>
     </nav>
   </header>
   <div id="wrapper">
     <section id="page">
+      <img class="wow bounceInDown" id="imgartist1" src="IMG/TituloArtistas.png"/>
       <article id="main">
-        <img class="imgcabecera" src="http://www.dolphinmusic.co.uk/shop_image/uploads/Image/Vocal%20Recordings.jpg"/>
-        <p>Busque el nombre de un artista: </p>
-        <input type="text" id="campo"/>
-        <button id="buscarartista">Buscar artista</button>
+        <div class="block wow bounceInLeft">
+          <img class="generalic" src="IMG/ariana-grande.jpg"/>
+          <img class="generalic" src="IMG/Justin-Timberlake.jpg"/>
+          <img class="generalic" src="IMG/demi-lovato.jpg"/><br/>
+        </div>
+        <div class="block wow bounceInRight">
+          <img class="generalic2" src="IMG/James-Maslow.png"/>
+          <img class="generalic2" src="IMG/hilary-duff.jpg"/>
+          <img class="generalic2" src="IMG/zayn-malik.jpg"/><br/>
+        </div>
+        <div class="block wow bounceInLeft">
+          <img class="generalic3" src="IMG/katy-perry.jpg"/>
+          <img class="generalic3" src="IMG/sam.jpg"/><br/>
+        </div>
+        <div class="block wow bounceInRight">
+          <img class="generalic3" src="IMG/Adam-Levine.jpg"/>
+          <img class="generalic3" src="IMG/Taylor-Swift.jpg"/>
+          <img class="generalic3" src="IMG/Niall-Horan.jpg"/><br/>
+        </div>
+        <img class="wow flipInY" id="imgcanc5" src="IMG/tituloP1.png"/>
+        <div id="divplay">
+          <p class="wow bounceInLeft" id="nota3">Busque el Nombre de un Artista: </p>
+          <input class="wow rubberBand" type="text" id="campo"/>
+          <button class="wow rubberBand" id="buscarartista">Buscar Artista</button>
+        </div>
       </article><!-- main -->
-      <aside>
-
-      </aside>
     </section><!-- page -->
 
-    <footer>
+    <footer class="wow flash">
       <p>
-        Copyright(c) 2015. Todos los derechos reservados.
+        Copyright(c) 2015 Kevin Soto, Alvaro Martinez. Todos los Derechos Reservados.
         Sitio Oficial de MusicSpot Variante de Spotify.
       </p>
     </footer>
   </div><!-- wrapper -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+   new WOW().init();
+  </script>
 </body>
 </html>

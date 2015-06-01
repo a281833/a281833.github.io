@@ -5,6 +5,7 @@
   <title>MusicSpot</title>
   <link rel="stylesheet" href="css/dosis.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animate.css" />
   <link rel="shortcut icon" type="image/ico" href="IMG/IconoSpoty.ico" />
   <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
 </head>
@@ -12,38 +13,68 @@
   <header>
     <div id="logo">
       <a href="index.html">
-        <img src="IMG/LogoPrincipal.png"/>
+        <img class="wow flip" id="logo1"src="IMG/LogoPrincipal2.png"/>
       </a>
     </div><!-- logo -->
-    <nav>
+    <nav class="wow shake">
       <ul>
-        <li><a target="_blank" href="http://spotify.com">Spotify</a></li>
         <li><a href="canciones.html">Canciones</a></li>
         <li><a href="playlist.html">Playlist</a></li>
         <li><a href="artistas.html">Artistas</a></li>
         <li><a href="albumes.html">Álbumes</a></li>
+        <li><a href="https://www.spotify.com/mx/" target="_blank">Spotify</a></li>
       </ul>
     </nav>
   </header>
   <div id="wrapper">
     <section id="page">
+      <img class="wow bounceInDown" id="imgalbum1" src="IMG/TituloAlbumes.png"/>
       <article id="main">
-        <div id=busq>
-          <img class="imgcabecera" src="http://halifaxbloggers.ca/hafilax/wp-content/uploads/sites/13/2015/02/albums.jpg"/>
-          <p>Busque un álbum: </p><input type="text" id="album"/>
-          <button id="buscaralbum">Buscar álbum</button>
+        <div class="bloque wow bounceInRight">
+          <img class="general" src="IMG/ariana-grande-my-everything-album-cover.jpg"/>
+          <img class="general" src="IMG/rs_600x600-140908070006-600.One-Direction-JR-90814_copy.jpg"/>
+          <img class="general" src="IMG/taylor-swift-1989-cover.jpg"/>
+          <img class="general" src="IMG/sam-smith-in-the-lonely-hour-track-list-album-cover.jpg"/><br/>
+        </div>
+        <div class="bloque wow bounceInLeft">
+          <img class="general" src="IMG/24SevenCover.jpg"/>
+          <img class="general" src="IMG/photo.jpg"/>
+          <img class="general" src="IMG/Stars-Dance-selena-gomez-album-cover.jpg"/>
+          <img class="general" src="IMG/katy-perry-prism-cover.jpg"/>
+        </div>
+        <div class="bloque wow bounceInRight">
+          <img class="general" src="IMG/TheFameMonster.png"/>
+          <img class="general" src="IMG/81JAXUeMlkL._SL1500_.jpg"/>
+          <img class="general" src="IMG/maroon-5-v-album-artwork.jpg"/>
+          <img class="general" src="IMG/ellie-goulding-halcyon-days-deluxe-version-2013-1200x1200.png"/>
+        </div>
+        <div class="bloque wow bounceInLeft">
+          <img class="general" src="IMG/5_Seconds_of_Summer_-_Debut_Album_artwork.jpg"/>
+          <img class="general" src="IMG/The-Beginning-Super-Deluxe-Edition.jpg"/>
+          <img class="general" src="IMG/Justin-Timberlake-album-cover-1592759.jpg"/>
+          <img class="general" src="IMG/bruno-mars-unorthodox-jukebox-cover.jpg"/>
+        </div>
+        <img class="wow flipInY" id="imgcanc5" src="IMG/tituloP1.png"/>
+        <div id="busq">
+          <p class="wow bounceInLeft" id="nota4">Aqui Puedes Buscar Algun Álbum: </p>
+          <input class="wow rubberBand" type="text" id="album"/>
+          <button class="wow rubberBand" id="buscaralbum">Buscar Álbum</button>
         </div>
       </article><!-- main -->
     </section><!-- page -->
 
-    <footer>
+    <footer class="wow flash">
       <p>
-        Copyright(c) 2015. Todos los derechos reservados.
+        Copyright(c) 2015 Kevin Soto, Alvaro Martinez. Todos los Derechos Reservados.
         Sitio Oficial de MusicSpot Variante de Spotify.
       </p>
     </footer>
   </div><!-- wrapper -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+   new WOW().init();
+  </script>
 </body>
 </html>

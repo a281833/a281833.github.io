@@ -100,12 +100,12 @@ nav a:hover {
 
 #div1 {
   float: left;
-  width: 300px;
+  width: 320px;
   height: 80px;
   text-align: justify;
   font-family: 'Dosis';
   font-size: 20px;
-  margin-top: -620px;
+  margin-top: -650px;
 }
 
 #div2 {
@@ -114,21 +114,25 @@ nav a:hover {
   height: 80px;
   text-align: justify;
   font-family: 'Dosis';
-  font-size: 17px;
-  margin-top: 5px;
-  margin-right: 20px;
+  font-size: 18px;
+  margin-top: -10px;
+  margin-right: 10px;
 }
 
 #img2 {
   float: right;
-  width:496px;
-  height:286px;
-  margin-left: 300px;
-  margin-top: -290px;
+  height: 280px;
+  margin-top: -285px;
+  margin-right: -10px;
+}
+
+#img3 {
+  height: 600px;
 }
 
 #img4 {
   height: 700px;
+  margin-top: 20px;
 }
 
 #div3 {
@@ -139,38 +143,61 @@ nav a:hover {
 }
 
 #img5 {
-  height: 400px;
+  height: 500px;
   margin-left: 700px;
-  margin-top: -500px;
+  margin-top: -480px;
   float:right;
+}
+
+#img6 {
+  margin-top: 50px;
 }
 
 iframe{
   margin-left:180px;
 }
 
+#ListMarina {
+  margin-top: -900px;
+  margin-left: 250px;
+  margin-bottom: 80px;
+}
+
+#ListHillary {
+  margin-right: 400px;
+  margin-top: 30px;
+  margin-left: -20px;
+}
+
 #div4 {
-  width: 650px;
+  width: 300px;
   height: 500px;
   text-align: justify;
   font-family: 'Dosis';
   font-size: 20px;
 }
 
+#tituloN {
+  font-size: 60px;
+  margin-left: 70px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 #div5 {
   float: right;
-  width: 450px;
+  width: 400px;
   height: 400px;
   text-align: justify;
   font-family: 'Dosis';
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 #img7 {
   height: 400px;
   margin-left: 50px;
-  margin-top: -10px;
+  margin-top: 50px;
 }
 
 footer {
@@ -308,7 +335,7 @@ article.ajuste {
   margin-top: 40px;
   margin-bottom: 40px;
   font-family: 'Dosis';
-  font-size: 80px;
+  font-size: 20px;
 }
 
 #imgcanc6 {
@@ -381,10 +408,122 @@ article.ajuste {
   margin-top: 5px;
   margin-bottom: 10px;
   font-family: 'Dosis';
-  font-size: 80px;
+  font-size: 20px;
   margin-left: 30px;
 }
 
 #divplay {
+  margin-bottom: 80px;
+}
+
+#imgartist1 {
+  height: 250px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+.generalic {
+  height: 250px;
+  margin-left: 10px;
+}
+
+.generalic2 {
+  height: 330px;
+  margin-left: 10px;
+}
+
+.generalic3 {
+  height: 350px;
+  margin-left: 10px;
+}
+
+.block {
+  width: 1200px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+#campo {
+  width: 400px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 25px;
+}
+
+#buscarartista {
+  float: left;
+  width: 300px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 35px;
+  border-radius: 15px 15px;
+  border: 8px solid rgb(30,215,96);
+  margin-top: -58px;
+  margin-left: 420px;
+}
+
+#nota3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'Dosis';
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+#imgalbum1 {
+  height: 250px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+.general {
+  height: 250px;
+  margin-left: 10px;
+}
+
+.bloque {
+  width: 1100px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+#nota4 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'Dosis';
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+#album {
+  width: 400px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 25px;
+}
+
+#buscaralbum {
+  float: left;
+  width: 300px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  font-family: 'Dosis';
+  font-size: 35px;
+  border-radius: 15px 15px;
+  border: 8px solid rgb(30,215,96);
+  margin-top: -58px;
+  margin-left: 420px;
+}
+
+#busq {
   margin-bottom: 80px;
 }
