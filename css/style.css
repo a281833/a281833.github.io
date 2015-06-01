@@ -267,6 +267,11 @@ article{
   margin-left: 100px;
 }
 
+#infoartista:hover {
+  border: 10px solid blue;
+  color: blue;
+}
+
 article.ajuste {
   padding-left: 250px;
 }
@@ -329,6 +334,11 @@ article.ajuste {
   border: 8px solid rgb(30,215,96);
   margin-top: -58px;
   margin-left: 420px;
+}
+
+#buscarcancion:hover {
+  border: 10px solid blue;
+  color: blue;
 }
 
 #nota1 {
@@ -404,6 +414,11 @@ article.ajuste {
   margin-left: 420px;
 }
 
+#buscarplaylist:hover {
+  border: 10px solid blue;
+  color: blue;
+}
+
 #nota2 {
   margin-top: 5px;
   margin-bottom: 10px;
@@ -467,6 +482,11 @@ article.ajuste {
   margin-left: 420px;
 }
 
+#buscarartista:hover {
+  border: 10px solid blue;
+  color: blue;
+}
+
 #nota3 {
   margin-top: 5px;
   margin-bottom: 10px;
@@ -522,6 +542,11 @@ article.ajuste {
   border: 8px solid rgb(30,215,96);
   margin-top: -58px;
   margin-left: 420px;
+}
+
+#buscaralbum:hover {
+  border: 10px solid blue;
+  color: blue;
 }
 
 #busq {
